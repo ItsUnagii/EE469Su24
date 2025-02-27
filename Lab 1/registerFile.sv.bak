@@ -1,0 +1,27 @@
+module registerFile (readData1, readData2, writeData, readRegister1, readRegister2, writeRegister, regWrite, clk);
+	input  logic        regWrite, clk;
+	input  logic [4:0]  readRegister1, readRegister2, writeRegister;
+	input  logic [63:0] writeData;
+	output logic [63:0] readData1, readData2;
+	
+	logic [31:0]       registerWrite;
+	logic [31:0][63:0] registerData;
+	
+	// decodign
+	// 5:32 enable decoder?
+	
+	
+	
+	// registers
+	genvar i;
+	generate
+		for (i=0; i<31; i++) begin
+			
+		end
+	endgenerate
+	
+	
+	// 2 larg 32x64 to 64 output muxes
+	mux32to1
+
+endmodule

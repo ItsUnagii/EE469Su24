@@ -1,0 +1,7946 @@
+|alu
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+A[32] => A[32].IN1
+A[33] => A[33].IN1
+A[34] => A[34].IN1
+A[35] => A[35].IN1
+A[36] => A[36].IN1
+A[37] => A[37].IN1
+A[38] => A[38].IN1
+A[39] => A[39].IN1
+A[40] => A[40].IN1
+A[41] => A[41].IN1
+A[42] => A[42].IN1
+A[43] => A[43].IN1
+A[44] => A[44].IN1
+A[45] => A[45].IN1
+A[46] => A[46].IN1
+A[47] => A[47].IN1
+A[48] => A[48].IN1
+A[49] => A[49].IN1
+A[50] => A[50].IN1
+A[51] => A[51].IN1
+A[52] => A[52].IN1
+A[53] => A[53].IN1
+A[54] => A[54].IN1
+A[55] => A[55].IN1
+A[56] => A[56].IN1
+A[57] => A[57].IN1
+A[58] => A[58].IN1
+A[59] => A[59].IN1
+A[60] => A[60].IN1
+A[61] => A[61].IN1
+A[62] => A[62].IN1
+A[63] => A[63].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+B[32] => B[32].IN1
+B[33] => B[33].IN1
+B[34] => B[34].IN1
+B[35] => B[35].IN1
+B[36] => B[36].IN1
+B[37] => B[37].IN1
+B[38] => B[38].IN1
+B[39] => B[39].IN1
+B[40] => B[40].IN1
+B[41] => B[41].IN1
+B[42] => B[42].IN1
+B[43] => B[43].IN1
+B[44] => B[44].IN1
+B[45] => B[45].IN1
+B[46] => B[46].IN1
+B[47] => B[47].IN1
+B[48] => B[48].IN1
+B[49] => B[49].IN1
+B[50] => B[50].IN1
+B[51] => B[51].IN1
+B[52] => B[52].IN1
+B[53] => B[53].IN1
+B[54] => B[54].IN1
+B[55] => B[55].IN1
+B[56] => B[56].IN1
+B[57] => B[57].IN1
+B[58] => B[58].IN1
+B[59] => B[59].IN1
+B[60] => B[60].IN1
+B[61] => B[61].IN1
+B[62] => B[62].IN1
+B[63] => B[63].IN1
+cntrl[0] => cntrl[0].IN65
+cntrl[1] => cntrl[1].IN64
+cntrl[2] => cntrl[2].IN64
+result[0] <= alu_1bit:theFirstAlu.out
+result[1] <= alu_1bit:gen_alus[1].theAlus.out
+result[2] <= alu_1bit:gen_alus[2].theAlus.out
+result[3] <= alu_1bit:gen_alus[3].theAlus.out
+result[4] <= alu_1bit:gen_alus[4].theAlus.out
+result[5] <= alu_1bit:gen_alus[5].theAlus.out
+result[6] <= alu_1bit:gen_alus[6].theAlus.out
+result[7] <= alu_1bit:gen_alus[7].theAlus.out
+result[8] <= alu_1bit:gen_alus[8].theAlus.out
+result[9] <= alu_1bit:gen_alus[9].theAlus.out
+result[10] <= alu_1bit:gen_alus[10].theAlus.out
+result[11] <= alu_1bit:gen_alus[11].theAlus.out
+result[12] <= alu_1bit:gen_alus[12].theAlus.out
+result[13] <= alu_1bit:gen_alus[13].theAlus.out
+result[14] <= alu_1bit:gen_alus[14].theAlus.out
+result[15] <= alu_1bit:gen_alus[15].theAlus.out
+result[16] <= alu_1bit:gen_alus[16].theAlus.out
+result[17] <= alu_1bit:gen_alus[17].theAlus.out
+result[18] <= alu_1bit:gen_alus[18].theAlus.out
+result[19] <= alu_1bit:gen_alus[19].theAlus.out
+result[20] <= alu_1bit:gen_alus[20].theAlus.out
+result[21] <= alu_1bit:gen_alus[21].theAlus.out
+result[22] <= alu_1bit:gen_alus[22].theAlus.out
+result[23] <= alu_1bit:gen_alus[23].theAlus.out
+result[24] <= alu_1bit:gen_alus[24].theAlus.out
+result[25] <= alu_1bit:gen_alus[25].theAlus.out
+result[26] <= alu_1bit:gen_alus[26].theAlus.out
+result[27] <= alu_1bit:gen_alus[27].theAlus.out
+result[28] <= alu_1bit:gen_alus[28].theAlus.out
+result[29] <= alu_1bit:gen_alus[29].theAlus.out
+result[30] <= alu_1bit:gen_alus[30].theAlus.out
+result[31] <= alu_1bit:gen_alus[31].theAlus.out
+result[32] <= alu_1bit:gen_alus[32].theAlus.out
+result[33] <= alu_1bit:gen_alus[33].theAlus.out
+result[34] <= alu_1bit:gen_alus[34].theAlus.out
+result[35] <= alu_1bit:gen_alus[35].theAlus.out
+result[36] <= alu_1bit:gen_alus[36].theAlus.out
+result[37] <= alu_1bit:gen_alus[37].theAlus.out
+result[38] <= alu_1bit:gen_alus[38].theAlus.out
+result[39] <= alu_1bit:gen_alus[39].theAlus.out
+result[40] <= alu_1bit:gen_alus[40].theAlus.out
+result[41] <= alu_1bit:gen_alus[41].theAlus.out
+result[42] <= alu_1bit:gen_alus[42].theAlus.out
+result[43] <= alu_1bit:gen_alus[43].theAlus.out
+result[44] <= alu_1bit:gen_alus[44].theAlus.out
+result[45] <= alu_1bit:gen_alus[45].theAlus.out
+result[46] <= alu_1bit:gen_alus[46].theAlus.out
+result[47] <= alu_1bit:gen_alus[47].theAlus.out
+result[48] <= alu_1bit:gen_alus[48].theAlus.out
+result[49] <= alu_1bit:gen_alus[49].theAlus.out
+result[50] <= alu_1bit:gen_alus[50].theAlus.out
+result[51] <= alu_1bit:gen_alus[51].theAlus.out
+result[52] <= alu_1bit:gen_alus[52].theAlus.out
+result[53] <= alu_1bit:gen_alus[53].theAlus.out
+result[54] <= alu_1bit:gen_alus[54].theAlus.out
+result[55] <= alu_1bit:gen_alus[55].theAlus.out
+result[56] <= alu_1bit:gen_alus[56].theAlus.out
+result[57] <= alu_1bit:gen_alus[57].theAlus.out
+result[58] <= alu_1bit:gen_alus[58].theAlus.out
+result[59] <= alu_1bit:gen_alus[59].theAlus.out
+result[60] <= alu_1bit:gen_alus[60].theAlus.out
+result[61] <= alu_1bit:gen_alus[61].theAlus.out
+result[62] <= alu_1bit:gen_alus[62].theAlus.out
+result[63] <= alu_1bit:gen_alus[63].theAlus.out
+negative <= alu_1bit:gen_alus[63].theAlus.out
+zero <= theZeroAnd.DB_MAX_OUTPUT_PORT_TYPE
+overflow <= theOverflowXor.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= alu_1bit:gen_alus[63].theAlus.cout
+
+
+|alu|alu_1bit:theFirstAlu
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:theFirstAlu|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:theFirstAlu|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[1].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[2].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[3].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[4].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[5].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[6].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[7].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[8].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[9].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[10].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[11].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[12].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[13].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[14].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[15].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[16].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[17].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[18].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[19].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[20].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[21].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[22].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[23].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[24].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[25].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[26].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[27].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[28].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[29].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[30].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[31].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[32].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[33].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[34].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[35].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[36].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[37].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[38].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[39].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[40].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[41].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[42].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[43].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[44].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[45].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[46].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[47].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[48].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[49].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[50].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[51].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[52].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[53].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[54].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[55].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[56].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[57].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[58].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[59].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[60].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[61].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[62].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus
+ctrl[0] => ctrl[0].IN2
+ctrl[1] => ctrl[1].IN1
+ctrl[2] => ctrl[2].IN1
+A => A.IN1
+B => B.IN2
+cout <= fullAdder:adder.cout
+cin => cin.IN1
+out <= mux8to1:selectOp.out
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux2to1:invertB
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|fullAdder:adder
+result <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+A => xor0.IN0
+A => and0.IN0
+B => xor0.IN1
+B => and0.IN1
+cin => xor1.IN1
+cin => and1.IN1
+cout <= or0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp
+select[0] => select[0].IN2
+select[1] => select[1].IN2
+select[2] => select[2].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux0
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux0|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux1
+select[0] => select[0].IN2
+select[1] => select[1].IN1
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+out <= mux2to1:mux2.out
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux0
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux1
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux4to1:mux1|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|alu_1bit:gen_alus[63].theAlus|mux8to1:selectOp|mux2to1:mux2
+select => isSelect.IN0
+select => notSelect.IN0
+in[0] => notSelect.IN1
+in[1] => isSelect.IN1
+out <= selectOut.DB_MAX_OUTPUT_PORT_TYPE
+
+

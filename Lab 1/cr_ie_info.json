@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_map",
+		"comment" : "none",
+		"error_message" : "(top_c->is_unpacked() && sub_c->is_unpacked()) || m_mixed_language",
+		"source_file" : "/quartus/synth/sgn/sgn_hier_connector.cpp",
+		"line" : "6140",
+		"stack_trace" : "\t0x7ffcc3187e35: synth_sgn + 0x107e35 (?check_array_port_type_and_width@SGN_PORT_CONNECTOR@@AEAAXPEBVBASEX_CONSTRAINT@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVBASEX_PORT@@@Z + 0xa5)\n\t0x7ffcc318a45c: synth_sgn + 0x10a45c (?check_port_type_and_width@SGN_PORT_CONNECTOR@@AEAAXPEBVBASEX_CONSTRAINT@@0AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVBASEX_PORT@@@Z + 0x65c)\n\t0x7ffcc3189696: synth_sgn + 0x109696 (?check_connections_one_port@SGN_PORT_CONNECTOR@@AEAAXPEBVBASEX_PORT@@0_NI@Z + 0xe6)\n\t0x7ffcc3188fab: synth_sgn + 0x108fab (?check_connections_all_ports@SGN_PORT_CONNECTOR@@QEAAXXZ + 0x45b)\n\t0x7ffcc318dcc1: synth_sgn + 0x10dcc1 (?hier_connect_n_merge_known_port@SGN_HIER_CONNECTOR@@AEAAXKKKKPEAVCDB_SGATE_COMPONENT@@_N@Z + 0x401)\n\t0x7ffcc318b567: synth_sgn + 0x10b567 (?connect_n_merge@SGN_HIER_CONNECTOR@@AEAAXKK@Z + 0x2c7)\n\t0x7ffcc318b9bb: synth_sgn + 0x10b9bb (?connect_n_merge_all_hierarchies@SGN_HIER_CONNECTOR@@AEAAXXZ + 0x8b)\n\t0x7ffcc318b80f: synth_sgn + 0x10b80f (?connect_n_merge@SGN_HIER_CONNECTOR@@QEAAXXZ + 0x7f)\n\t0x7ffcc3133aa9: synth_sgn + 0xb3aa9 (?merge_hierarchies@SGN_EXTRACTOR@@AEAAXXZ + 0x129)\n\t0x7ffcc31340d9: synth_sgn + 0xb40d9 (?post_process_user_hierarchies@SGN_EXTRACTOR@@AEAAXXZ + 0x129)\n\t0x7ffcc31343a7: synth_sgn + 0xb43a7 (?post_processing@SGN_EXTRACTOR@@AEAAXXZ + 0x57)\n\t0x7ffcc313098b: synth_sgn + 0xb098b (?extract@SGN_EXTRACTOR@@QEAAXXZ + 0x24b)\n\t0x7ffcc309309e: synth_sgn + 0x1309e (?sgn_qic_full@@YA?AW4SGN_STATE_ENUM@@PEAVCMP_FACADE@@AEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAV?$vector@NV?$allocator@N@std@@@4@@Z + 0x19e)\n\t0x7ff766444351: quartus_map + 0x4351 (?qsyn_execute_sgn@@YA?AW4SGN_STATE_ENUM@@PEAVCMP_FACADE@@AEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@PEAVTHR_NAMED_PIPE@@3@Z + 0x131)\n\t0x7ff766453f9c: quartus_map + 0x13f9c (?execute_core@QSYN_FRAMEWORK@@AEAA_NPEAVTHR_NAMED_PIPE@@0@Z + 0x12c)\n\t0x7ff766453aa6: quartus_map + 0x13aa6 (?execute@QSYN_FRAMEWORK@@UEAA_NXZ + 0x496)\n\t0x7ffd07fb12bc: comp_qexe + 0x112bc (qexe_do_normal + 0x1ec)\n\t0x7ffd07fb6142: comp_qexe + 0x16142 (qexe_run + 0x432)\n\t0x7ffd07fb6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff76645b08b: quartus_map + 0x1b08b (?qsyn_main@@YAHHPEAPEBD@Z + 0x51b)\n\t0x7ffd02012d68: CCL_MSG + 0x12d68 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffd0201454e: CCL_MSG + 0x1454e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffd01f35b00: ccl_mem + 0x15b00 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffd02012631: CCL_MSG + 0x12631 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff766469872: quartus_map + 0x29872 (__tmainCRTStartup + 0x10e)\n\t0x7ffd2108257c: KERNEL32 + 0x1257c (BaseThreadInitThunk + 0x1c)\n\t0x7ffd2220af27: ntdll + 0x5af27 (RtlUserThreadStart + 0x27)\n",
+		"subsystem" : "SGN"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "17.0.0",
+		"build" : "595",
+		"edition" : "Lite Edition"
+	}
+}

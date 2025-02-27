@@ -1,0 +1,18 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10273): Verilog HDL warning at ControlSignal.sv(29): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 29
+Warning (10273): Verilog HDL warning at ControlSignal.sv(37): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 37
+Warning (10273): Verilog HDL warning at ControlSignal.sv(38): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 38
+Warning (10273): Verilog HDL warning at ControlSignal.sv(44): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 44
+Warning (10273): Verilog HDL warning at ControlSignal.sv(52): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 52
+Warning (10273): Verilog HDL warning at ControlSignal.sv(53): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 53
+Warning (10273): Verilog HDL warning at ControlSignal.sv(59): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 59
+Warning (10273): Verilog HDL warning at ControlSignal.sv(68): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 68
+Warning (10273): Verilog HDL warning at ControlSignal.sv(74): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 74
+Warning (10273): Verilog HDL warning at ControlSignal.sv(82): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 82
+Warning (10273): Verilog HDL warning at ControlSignal.sv(83): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 83
+Warning (10273): Verilog HDL warning at ControlSignal.sv(97): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 97
+Warning (10273): Verilog HDL warning at ControlSignal.sv(172): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/ControlSignal.sv Line: 172
+Warning (10273): Verilog HDL warning at instructionDecode.sv(35): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/instructionDecode.sv Line: 35
+Warning (10273): Verilog HDL warning at instructionDecode.sv(36): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/instructionDecode.sv Line: 36
+Warning (10273): Verilog HDL warning at execute.sv(18): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/execute.sv Line: 18
+Warning (10273): Verilog HDL warning at memoryRegister.sv(17): extended using "x" or "z" File: C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab4a/memoryRegister.sv Line: 17

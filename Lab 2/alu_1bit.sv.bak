@@ -1,0 +1,11 @@
+module alu_1bit (ctrl, A, B, out, Cin, Cout);
+	input logic [2:0] ctrl;
+	input logic A, B, Cin;
+	
+	output logic Cout, out;
+	
+	logic [7:0] result;
+	logic B_add, andAB, orAB, xorAB;
+	
+	mux2to1 invertB (.select(ctrl[0]), .in({~B, B}), .out(B_add));
+	fullAdder adder (.result(result[2]), .A(A), .B(B_add), .Cin(Cin), .Cout(Cout));

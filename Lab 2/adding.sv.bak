@@ -1,0 +1,17 @@
+`timescale 
+
+module adder (A, B, Ci, Co, S);
+
+	input  logic A, B, Ci;
+	output logic Co, S;
+
+	logic AorB;
+	logic AandB;
+	logic Cand1;
+	
+	xor #5 xor0 (AorB, A, B);
+	xor #5 xor1 (S, Ci, AorB);
+	
+	and #5 and0 ();
+
+endmodule

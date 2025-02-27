@@ -1,0 +1,3 @@
+module decoder5to32(regWrite);
+
+endmodule

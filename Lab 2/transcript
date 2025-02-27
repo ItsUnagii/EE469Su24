@@ -1,0 +1,498 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:57 on Jul 04,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 14:13:58 on Jul 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:58 on Jul 04,2024
+# vlog -reportprogress 300 ./logic.sv 
+# -- Compiling module bitAND
+# -- Compiling module bitOR
+# -- Compiling module bitXOR
+# 
+# Top level modules:
+# 	bitAND
+# 	bitOR
+# 	bitXOR
+# End time: 14:13:58 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:58 on Jul 04,2024
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# ** Warning: ./alustim.sv(74): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	alustim
+# End time: 14:13:58 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:58 on Jul 04,2024
+# vlog -reportprogress 300 ./adding.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 14:13:58 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:58 on Jul 04,2024
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_tb
+# 
+# Top level modules:
+# 	alu_1bit_tb
+# End time: 14:13:59 on Jul 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:59 on Jul 04,2024
+# vlog -reportprogress 300 ./muxes.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 14:13:59 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 14:14:01 on Jul 04,2024
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 25624
+#           Attempting to use alternate WLF file "./wlft3dmrya".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3dmrya
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# 10200000.00 ns testing subtraction
+# ** Error: Assertion error.
+#    Time: 10300 us  Scope: alustim File: ./alustim.sv Line: 66
+# ** Error: Assertion error.
+#    Time: 10400 us  Scope: alustim File: ./alustim.sv Line: 71
+# ** Error: Assertion error.
+#    Time: 10500 us  Scope: alustim File: ./alustim.sv Line: 76
+# ** Error: Assertion error.
+#    Time: 10700 us  Scope: alustim File: ./alustim.sv Line: 86
+# ** Error: Assertion error.
+#    Time: 10800 us  Scope: alustim File: ./alustim.sv Line: 91
+# 10800000.00 ns testing AND
+# 10900000.00 ns testing OR
+# ** Error: Assertion error.
+#    Time: 11 ms  Scope: alustim File: ./alustim.sv Line: 107
+# 11000000.00 ns testing XOR
+# ** Error: Assertion error.
+#    Time: 11100 us  Scope: alustim File: ./alustim.sv Line: 115
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2023-2024/Summer/EE469/Lab2/alu.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:51 on Jul 04,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 14:15:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:51 on Jul 04,2024
+# vlog -reportprogress 300 ./logic.sv 
+# -- Compiling module bitAND
+# -- Compiling module bitOR
+# -- Compiling module bitXOR
+# 
+# Top level modules:
+# 	bitAND
+# 	bitOR
+# 	bitXOR
+# End time: 14:15:52 on Jul 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:52 on Jul 04,2024
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# ** Warning: ./alustim.sv(74): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	alustim
+# End time: 14:15:52 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:52 on Jul 04,2024
+# vlog -reportprogress 300 ./adding.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 14:15:52 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:52 on Jul 04,2024
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_tb
+# 
+# Top level modules:
+# 	alu_1bit_tb
+# End time: 14:15:52 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:15:52 on Jul 04,2024
+# vlog -reportprogress 300 ./muxes.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 14:15:52 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:15:56 on Jul 04,2024, Elapsed time: 0:01:55
+# Errors: 7, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 14:15:56 on Jul 04,2024
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 25624
+#           Attempting to use alternate WLF file "./wlftrkkvwv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrkkvwv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# 10200000.00 ns testing subtraction
+# ** Error: Assertion error.
+#    Time: 10300 us  Scope: alustim File: ./alustim.sv Line: 66
+# ** Error: Assertion error.
+#    Time: 10400 us  Scope: alustim File: ./alustim.sv Line: 71
+# ** Error: Assertion error.
+#    Time: 10500 us  Scope: alustim File: ./alustim.sv Line: 76
+# ** Error: Assertion error.
+#    Time: 10700 us  Scope: alustim File: ./alustim.sv Line: 86
+# ** Error: Assertion error.
+#    Time: 10800 us  Scope: alustim File: ./alustim.sv Line: 91
+# 10800000.00 ns testing AND
+# 10900000.00 ns testing OR
+# 11000000.00 ns testing XOR
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./logic.sv 
+# -- Compiling module bitAND
+# -- Compiling module bitOR
+# -- Compiling module bitXOR
+# 
+# Top level modules:
+# 	bitAND
+# 	bitOR
+# 	bitXOR
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# ** Warning: ./alustim.sv(86): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	alustim
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./adding.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_tb
+# 
+# Top level modules:
+# 	alu_1bit_tb
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:51 on Jul 04,2024
+# vlog -reportprogress 300 ./muxes.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 14:20:51 on Jul 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:20:55 on Jul 04,2024, Elapsed time: 0:04:59
+# Errors: 5, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 14:20:55 on Jul 04,2024
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 25624
+#           Attempting to use alternate WLF file "./wlftz1qzga".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz1qzga
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# ** Error: Assertion error.
+#    Time: 10400 us  Scope: alustim File: ./alustim.sv Line: 70
+# 10400000.00 ns testing subtraction
+# ** Error: Assertion error.
+#    Time: 10500 us  Scope: alustim File: ./alustim.sv Line: 78
+# ** Error: Assertion error.
+#    Time: 10600 us  Scope: alustim File: ./alustim.sv Line: 83
+# ** Error: Assertion error.
+#    Time: 10700 us  Scope: alustim File: ./alustim.sv Line: 88
+# ** Error: Assertion error.
+#    Time: 10900 us  Scope: alustim File: ./alustim.sv Line: 98
+# ** Error: Assertion error.
+#    Time: 11 ms  Scope: alustim File: ./alustim.sv Line: 103
+# 11000000.00 ns testing AND
+# 11100000.00 ns testing OR
+# 11200000.00 ns testing XOR
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./logic.sv 
+# -- Compiling module bitAND
+# -- Compiling module bitOR
+# -- Compiling module bitXOR
+# 
+# Top level modules:
+# 	bitAND
+# 	bitOR
+# 	bitXOR
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./adding.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_tb
+# 
+# Top level modules:
+# 	alu_1bit_tb
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:06:45 on Jul 05,2024
+# vlog -reportprogress 300 ./muxes.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 10:06:45 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:06:48 on Jul 05,2024, Elapsed time: 19:45:53
+# Errors: 6, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 10:06:48 on Jul 05,2024
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 25624
+#           Attempting to use alternate WLF file "./wlftz52thi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz52thi
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# 10600000.00 ns testing subtraction
+# ** Error: Assertion error.
+#    Time: 10700 us  Scope: alustim File: ./alustim.sv Line: 91
+# ** Error: Assertion error.
+#    Time: 10800 us  Scope: alustim File: ./alustim.sv Line: 97
+# ** Error: Assertion error.
+#    Time: 10900 us  Scope: alustim File: ./alustim.sv Line: 103
+# ** Error: Assertion error.
+#    Time: 11100 us  Scope: alustim File: ./alustim.sv Line: 115
+# ** Error: Assertion error.
+#    Time: 11200 us  Scope: alustim File: ./alustim.sv Line: 121
+# ** Error: Assertion error.
+#    Time: 11300 us  Scope: alustim File: ./alustim.sv Line: 127
+# 11300000.00 ns testing AND
+# 11400000.00 ns testing OR
+# 11500000.00 ns testing XOR
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:35 on Jul 05,2024
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 10:09:35 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:35 on Jul 05,2024
+# vlog -reportprogress 300 ./logic.sv 
+# -- Compiling module bitAND
+# -- Compiling module bitOR
+# -- Compiling module bitXOR
+# 
+# Top level modules:
+# 	bitAND
+# 	bitOR
+# 	bitXOR
+# End time: 10:09:36 on Jul 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:36 on Jul 05,2024
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 10:09:36 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:36 on Jul 05,2024
+# vlog -reportprogress 300 ./adding.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 10:09:36 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:36 on Jul 05,2024
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_tb
+# 
+# Top level modules:
+# 	alu_1bit_tb
+# End time: 10:09:36 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:09:36 on Jul 05,2024
+# vlog -reportprogress 300 ./muxes.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 10:09:36 on Jul 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:09:37 on Jul 05,2024, Elapsed time: 0:02:49
+# Errors: 6, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 10:09:37 on Jul 05,2024
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux2to1
+# Loading work.adder
+# Loading work.mux8to1
+# Loading work.mux4to1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 25624
+#           Attempting to use alternate WLF file "./wlft2b9sx1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2b9sx1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# 10600000.00 ns testing subtraction
+# 11300000.00 ns testing AND
+# 11400000.00 ns testing OR
+# 11500000.00 ns testing XOR
+# End time: 13:23:01 on Jul 05,2024, Elapsed time: 3:13:24
+# Errors: 0, Warnings: 2
